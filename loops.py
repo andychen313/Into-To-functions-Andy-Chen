@@ -3,12 +3,22 @@ from turtle import *
 t = Turtle()
 
 
-def doubleSquares(iRange):
+sidelength = 100
+rotate = 90
+y = 90
+def square(x, y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+square(100, 90)
+
+
+""" def doubleSquares(iRange):
     length = 25
     for i in range(iRange):
-        square(length, 90)
+        square(length, 100)
         length = length * 2
-doubleSquares(5)
+doubleSquares(5) """
 
 
 
