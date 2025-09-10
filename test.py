@@ -1,11 +1,9 @@
-import turtle
+""" import turtle
 from turtle import *
 t = Turtle()
 
+turtle.done() """
 
-for i in range(4):
-    t.forward(100)
-    t.left(90)
-
-
-turtle.done()
+def message(input):
+    print(input)
+    message("Hello Class")
