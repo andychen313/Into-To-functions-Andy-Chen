@@ -1,11 +1,16 @@
-#Add values into x and y
-x = 5
-y = 15
+import turtle
+from turtle import *
+t = Turtle()
 
 
-#Add
-final_sum = x + y
-print(final_sum)
+def doubleSquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length, 90)
+        length = length * 2
+doubleSquares(5)
+
+
 
 """ def square(x):
     for i in range(4):
@@ -20,13 +25,15 @@ def addSquares(iRange):
         square(200)
         length = length +20
         t.left(5)
-addSquares(60) """
+addSquares(60) 
 
-""" def star(x):
+
+def star(x):
     for i in range(5):
         t.forward(x)
         t.left(144)
 star(200)
+
 
 def many_stars():
     length = 200
@@ -34,9 +41,10 @@ def many_stars():
         star(length)
         t.left(10)
         length = length +20
-many_stars() """
+many_stars()
 
-""" def square(x):
+
+def square(x):
     for i in range(4):
         t.forward(x)
         t.left(90)
@@ -49,7 +57,7 @@ def addSquares(iRange):
         square(length)
         length = length
         t.left(5)
-addSquares(60)
+addSquares(60) """
 
 
-turtle.done() """
+turtle.done()
