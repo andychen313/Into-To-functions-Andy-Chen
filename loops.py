@@ -1,7 +1,11 @@
-""" import turtle
-from turtle import *
-t = Turtle()
-t.speed('fastest') """
+#Add values into x and y
+x = 5
+y = 15
+
+
+#Add
+final_sum = x + y
+print(final_sum)
 
 """ def square(x):
     for i in range(4):
