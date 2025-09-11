@@ -1,11 +1,11 @@
 import turtle
 from turtle import *
 t = Turtle()
+t.speed('fastest')
 
 
-sidelength = 100
+""" sidelength = 100
 rotate = 90
-y = 90
 def square(x, y):
     for i in range(4):
         t.forward(x)
@@ -13,10 +13,10 @@ def square(x, y):
 square(100, 90)
 
 
-""" def doubleSquares(iRange):
+def doubleSquares(iRange):
     length = 25
     for i in range(iRange):
-        square(length, 100)
+        square(length, 90)
         length = length * 2
 doubleSquares(5) """
 
@@ -68,6 +68,35 @@ def addSquares(iRange):
         length = length
         t.left(5)
 addSquares(60) """
+
+
+""" def square(length):
+    for i in range(4):
+        t.forward(length)
+        t.right(90)
+
+
+def spiral():
+    length = 5
+    for i in range(60):
+        square(length)
+        t.right(5)
+        length +=5
+spiral() """
+
+def star(size):
+    for i in range(5):
+        t.forward(size)
+        t.right(144)
+
+
+def star_spiral():
+    size = 5
+    for i in range(60):
+        star(size)
+        t.right(5)
+        size +=5
+star_spiral()
 
 
 turtle.done()
