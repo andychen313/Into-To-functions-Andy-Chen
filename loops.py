@@ -84,7 +84,7 @@ def spiral():
         length +=5
 spiral() """
 
-def star(size):
+""" def star(size):
     for i in range(5):
         t.forward(size)
         t.right(144)
@@ -96,7 +96,27 @@ def star_spiral():
         star(size)
         t.right(5)
         size +=5
-star_spiral()
+star_spiral() """
+
+
+def square(length):
+    for i in range(4):
+        t.forward(length)
+        t.right(90)
+
+
+def spiral():
+    length = 80
+    right = 10
+    for i in range(150):
+        square(length)
+        length =+80
+        t.right(20)
+        right +=100
+spiral()
+
+
+
 
 
 turtle.done()
