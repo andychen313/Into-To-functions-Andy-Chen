@@ -18,11 +18,11 @@ def doubleSquares(iRange):
     for i in range(iRange):
         square(length, 90)
         length = length * 2
-doubleSquares(5) """
+doubleSquares(5)
 
 
 
-""" def square(x):
+def square(x):
     for i in range(4):
         t.forward(x)
         t.left(90)
@@ -67,10 +67,9 @@ def addSquares(iRange):
         square(length)
         length = length
         t.left(5)
-addSquares(60) """
+addSquares(60) 
 
-
-""" def square(length):
+def square(length):
     for i in range(4):
         t.forward(length)
         t.right(90)
@@ -82,9 +81,10 @@ def spiral():
         square(length)
         t.right(5)
         length +=5
-spiral() """
+spiral() 
 
-""" def star(size):
+
+def star(size):
     for i in range(5):
         t.forward(size)
         t.right(144)
@@ -96,7 +96,7 @@ def star_spiral():
         star(size)
         t.right(5)
         size +=5
-star_spiral() """
+star_spiral() 
 
 
 def square(length):
@@ -106,14 +106,14 @@ def square(length):
 
 
 def spiral():
-    length = 80
+    length = 60
     right = 10
     for i in range(150):
-        square(length)
-        length =+80
-        t.right(20)
-        right +=100
-spiral()
+        square(60)
+        length =+40
+        t.right(5)
+        right +=10
+spiral() """
 
 
 
