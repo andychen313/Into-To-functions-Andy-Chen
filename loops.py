@@ -5,8 +5,8 @@ t.speed('fastest')
 
 """ for i in range(3):
     print(i)
-     """
-""" sidelength = 100
+    
+sidelength = 100
 rotate = 90
 def square(x, y):
     for i in range(4):
@@ -98,14 +98,13 @@ def star_spiral():
         star(size)
         t.right(5)
         size +=5
-star_spiral() 
+star_spiral() """ 
 
 
-def square(length):
+""" def square(length):
     for i in range(4):
         t.forward(length)
-        t.right(90)
-
+        t.right(90) 
 
 def spiral():
     length = 60
@@ -116,9 +115,5 @@ def spiral():
         t.right(5)
         right +=10
 spiral() """
-
-
-
-
 
 turtle.done()
