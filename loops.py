@@ -3,7 +3,9 @@ from turtle import *
 t = Turtle()
 t.speed('fastest')
 
-
+""" for i in range(3):
+    print(i)
+     """
 """ sidelength = 100
 rotate = 90
 def square(x, y):
