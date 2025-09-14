@@ -46,7 +46,18 @@ rectangle() """
     t.forward(x)
 equal(90) """
 
+
+""" def right():
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(135)
+    t.forward(142)
+right() """
+
+
 turtle.done()
+
 """ def message(input):
     print(input)
-message("Hello Class") """
+message("Good Afternoon") """

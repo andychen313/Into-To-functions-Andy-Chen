@@ -116,4 +116,94 @@ def spiral():
         right +=10
 spiral() """
 
+""" for i in range(4):
+    t.forward(100)
+    t.left(90) """
+
+""" def triangle(x):
+    for i in range(3):
+        t.forward(x)
+        t.left(120)
+triangle(100) """
+
+""" def square(x):
+    for i in range(4):
+        t.forward(x)
+        t.left(90)
+
+def addSquares(iRange):
+    length = 200
+    for i in range(60):
+        square(length)
+        length = length
+        t.right(5)
+addSquares(60) """
+
+
+""" sidelength = 200
+rotate = 90
+def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+square(200, 90) """
+
+
+""" sidelength = 25 """
+""" rotate = 90
+def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+
+
+def addSquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length, 90)
+        length += 25 """
+""" addSquares(5) """
+
+""" sidelength = 200
+rotate = 90
+def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+
+
+def doubleSquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length, 90)
+        length = length * 2
+doubleSquares(5) """
+
+""" def star(size):
+    for i in range(5):
+        t.forward(size)
+        t.right(144)
+
+
+def star_spiral():
+    size = 5
+    for i in range(60):
+        star(size)
+        t.right(5)
+        size +=5
+star_spiral() """
+
+""" def square(x):
+    for i in range(4):
+        t.forward(x)
+        t.right(90)
+
+def spiral():
+    x = 5
+    for i in range(60):
+        square(x)
+        t.right(5)
+        x +=5
+spiral() """
+
 turtle.done()
