@@ -95,9 +95,34 @@ students.append("Alina")
 for student in students:
     print(student) """
 
-x = True
+""" x = True
 y = False
 if y == True:
     print("Hello Rodney")
 else:
     print("Goodbye Rodney")
+friend_comes = True (Boolean)
+lists, truthtables
+
+def and_movies(friend, money):
+    if friend == True and money == True:
+        print("Going to the movies")
+    else:
+        print("I have no friends or i have no money")
+and_movies(friend_comes, money) """
+
+""" def or_movies(friend, money):
+    if friend or money:
+        print("Going to the movies")
+    else:
+        print("I have no friend and i have no money")
+or_movies(frend_comes, money) """
+
+homework = True
+
+def not_movies(homework):
+    if not homework:
+        print("movie time")
+    else:
+        print("homework time, I hate russian")
+not_movies(homework)
